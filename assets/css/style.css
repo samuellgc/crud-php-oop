@@ -1,0 +1,118 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#delete-product-btn, .btn-cancel {
+    margin: 0px 28px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#cards {
+    min-height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.btn-header button {
+    box-shadow: 3px 3px black;
+}
+
+.card-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 235px;
+    max-width: 235px;
+    max-height: 190px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.span-checkbox {
+    width: 100%;
+    text-align: left;
+}
+
+a,a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+ul, li {
+    padding: 0;
+    list-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+#product_form {
+    min-height: 390px;
+    margin-top: 30px;
+    margin-bottom: 60px;   
+}
+
+.input-form-head {
+    height: 22px;
+}
+
+#name {
+    margin-left: 17px;
+}
+
+#sku {
+    margin-left: 30px;
+}
+
+#productType {
+    display: inline;
+    width: 155px;
+    margin-left: 20px;
+    height: 35px;
+}
+
+.typeSwitcher {
+    margin-top: 40px;
+}
+
+.card-add {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 180px;
+    border: 2px solid black;
+}
+
+#width {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 7px;
+}
+
+#height {
+    margin-left: 2px;
+}
